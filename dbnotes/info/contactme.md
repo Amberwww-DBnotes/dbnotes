@@ -29,5 +29,6 @@ author: DBnotes.cn
 
 ---
 
-##📝 版权 
-- Copyright © 2025-2026 dbnotes.cn.  All rights reserved.
+##📝 每天进步一点点... 与君共勉 ！！！
+
+![每天进步一点点](../images/1.01.png)
