@@ -31,4 +31,4 @@ author: DBnotes.cn
 
 ##📝 每天进步一点点... 与君共勉 ！！！
 
-![每天进步一点点](../images/1.01.png)
+![每天进步一点点](/dbnotes/images/1.01.png)

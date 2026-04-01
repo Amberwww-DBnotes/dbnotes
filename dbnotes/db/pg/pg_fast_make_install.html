@@ -1,8 +1,8 @@
 <!DOCTYPE html><html lang="zh-hans"><head>
         <meta charset="UTF-8">
-        <title>你养龙虾了么? · |数据库笔记|dbnotes.cn| </title>
+        <title>PG源码编译 · |数据库笔记|dbnotes.cn| </title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="dbnotes.cn 专注于 数据库、Linux运维、容器化与云原生实战。涵盖 Oracle、MySQL、PostgreSQL、国产数据库、DM8、 OB、TiDB、Redis、MongoDB、K8S、Docker等主流技术栈。内容适合 DBA、运维工程师、开发人员和IT技术爱好者。">
+        <meta name="description" content="">
         <meta name="generator" content="HonKit 6.1.6">
         <meta name="author" content="dbnotes.cn">
         
@@ -91,8 +91,8 @@
     <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="pg_log_auto-capture_sqltext.html">
     
-    <link rel="prev" href="what-is-tokens.html">
     
 
     </head>
@@ -171,9 +171,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1.1" data-path="../../db/oracle/Oracle_sqldeveloper.html">
+        <li class="chapter " data-level="1.2.1.1" data-path="../oracle/Oracle_sqldeveloper.html">
             
-                <a href="../../db/oracle/Oracle_sqldeveloper.html">
+                <a href="../oracle/Oracle_sqldeveloper.html">
             
                     
                     sqldeveloper连接SQLserver,mysql,db2,sybase方法
@@ -203,9 +203,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.2.1" data-path="../../db/sqlserver/SQLserver_error_all_info.html">
+        <li class="chapter " data-level="1.2.2.1" data-path="../sqlserver/SQLserver_error_all_info.html">
             
-                <a href="../../db/sqlserver/SQLserver_error_all_info.html">
+                <a href="../sqlserver/SQLserver_error_all_info.html">
             
                     
                     SQLserver引擎错误严重性和错误消息号大全
@@ -216,9 +216,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2.2" data-path="../../db/sqlserver/Alwayson_sql.html">
+        <li class="chapter " data-level="1.2.2.2" data-path="../sqlserver/Alwayson_sql.html">
             
-                <a href="../../db/sqlserver/Alwayson_sql.html">
+                <a href="../sqlserver/Alwayson_sql.html">
             
                     
                     Alwayson运维常用sql
@@ -280,9 +280,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.4.1" data-path="../../db/pg/pg_fast_make_install.html">
+        <li class="chapter active" data-level="1.2.4.1" data-path="pg_fast_make_install.html">
             
-                <a href="../../db/pg/pg_fast_make_install.html">
+                <a href="pg_fast_make_install.html">
             
                     
                     PG源码编译
@@ -293,9 +293,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.4.2" data-path="../../db/pg/pg_log_auto-capture_sqltext.html">
+        <li class="chapter " data-level="1.2.4.2" data-path="pg_log_auto-capture_sqltext.html">
             
-                <a href="../../db/pg/pg_log_auto-capture_sqltext.html">
+                <a href="pg_log_auto-capture_sqltext.html">
             
                     
                     从pg日志中提取慢sqltext
@@ -306,9 +306,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.4.3" data-path="../../db/pg/pg_log_auto-capture_sqlplan.html">
+        <li class="chapter " data-level="1.2.4.3" data-path="pg_log_auto-capture_sqlplan.html">
             
-                <a href="../../db/pg/pg_log_auto-capture_sqlplan.html">
+                <a href="pg_log_auto-capture_sqlplan.html">
             
                     
                     从pg日志中提取慢sqlplan
@@ -921,9 +921,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.6.1" data-path="what-is-tokens.html">
+        <li class="chapter " data-level="1.5.6.1" data-path="../../os/ai/what-is-tokens.html">
             
-                <a href="what-is-tokens.html">
+                <a href="../../os/ai/what-is-tokens.html">
             
                     
                     what's tokens?
@@ -934,9 +934,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.5.6.2" data-path="more-bai-claw.html">
+        <li class="chapter " data-level="1.5.6.2" data-path="../../os/ai/more-bai-claw.html">
             
-                <a href="more-bai-claw.html">
+                <a href="../../os/ai/more-bai-claw.html">
             
                     
                     你养龙虾了么?
@@ -1110,7 +1110,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../../..">你养龙虾了么?</a>
+        <a href="../../..">PG源码编译</a>
     </h1>
 </div>
 
@@ -1125,22 +1125,228 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#百虾大战"><b></b>百虾大战</a></li><ul><li><span class="title-icon "></span><a href="#开源"><b></b>开源</a></li><li><span class="title-icon "></span><a href="#腾讯"><b></b>腾讯</a></li><li><span class="title-icon "></span><a href="#阿里"><b></b>阿里</a></li><li><span class="title-icon "></span><a href="#字节"><b></b>字节</a></li><li><span class="title-icon "></span><a href="#智谱"><b></b>智谱</a></li><li><span class="title-icon "></span><a href="#月之暗面"><b></b>月之暗面</a></li></ul></ul></div><a href="#百虾大战" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="百虾大战"><a name="百虾大战" class="anchor-navigation-ex-anchor" href="#百虾大战"><i class="fa fa-link" aria-hidden="true"></i></a>百虾大战</h1>
-<p><a href="../../images/os/ai/more-bai-claw.png" data-lightbox="8e5644b1-8111-4b87-aa92-3027164ca818" data-title="百虾大战"><img src="../../images/os/ai/more-bai-claw.png" alt="百虾大战"></a></p>
-<h2 id="开源"><a name="开源" class="anchor-navigation-ex-anchor" href="#开源"><i class="fa fa-link" aria-hidden="true"></i></a>开源</h2>
-<p>OpenClaw</p>
-<h2 id="腾讯"><a name="腾讯" class="anchor-navigation-ex-anchor" href="#腾讯"><i class="fa fa-link" aria-hidden="true"></i></a>腾讯</h2>
-<p>WorkBuddy</p>
-<h2 id="阿里"><a name="阿里" class="anchor-navigation-ex-anchor" href="#阿里"><i class="fa fa-link" aria-hidden="true"></i></a>阿里</h2>
-<p>QoderWork</p>
-<h2 id="字节"><a name="字节" class="anchor-navigation-ex-anchor" href="#字节"><i class="fa fa-link" aria-hidden="true"></i></a>字节</h2>
-<p>ArkClaw</p>
-<h2 id="智谱"><a name="智谱" class="anchor-navigation-ex-anchor" href="#智谱"><i class="fa fa-link" aria-hidden="true"></i></a>智谱</h2>
-<p>AutoClaw</p>
-<h2 id="月之暗面"><a name="月之暗面" class="anchor-navigation-ex-anchor" href="#月之暗面"><i class="fa fa-link" aria-hidden="true"></i></a>月之暗面</h2>
-<p>KimiClaw</p>
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#postgresql-快速编译指南"><b></b>PostgreSQL 快速编译指南</a></li><ul><li><span class="title-icon "></span><a href="#一、标准编译流程"><b></b>一、标准编译流程</a></li><ul><li><span class="title-icon "></span><a href="#11-准备工作"><b></b>1.1 准备工作</a></li><li><span class="title-icon "></span><a href="#12-配置选项"><b></b>1.2 配置选项</a></li><li><span class="title-icon "></span><a href="#13-快速安装脚本"><b></b>1.3 快速安装脚本</a></li></ul><li><span class="title-icon "></span><a href="#二、进阶配置"><b></b>二、进阶配置</a></li><ul><li><span class="title-icon "></span><a href="#21-开发环境配置"><b></b>2.1 开发环境配置</a></li><li><span class="title-icon "></span><a href="#22-生产环境配置"><b></b>2.2 生产环境配置</a></li></ul><li><span class="title-icon "></span><a href="#三、常用命令速查表"><b></b>三、常用命令速查表</a></li><ul><li><span class="title-icon "></span><a href="#编译相关"><b></b>编译相关</a></li><li><span class="title-icon "></span><a href="#安装相关"><b></b>安装相关</a></li></ul><li><span class="title-icon "></span><a href="#四、注意事项"><b></b>四、注意事项</a></li><ul><li><span class="title-icon "></span><a href="#⚠️-权限管理"><b></b>⚠️ 权限管理</a></li><li><span class="title-icon "></span><a href="#📦-依赖管理"><b></b>📦 依赖管理</a></li><li><span class="title-icon "></span><a href="#🔧-环境变量配置"><b></b>🔧 环境变量配置</a></li></ul><li><span class="title-icon "></span><a href="#五、故障排除"><b></b>五、故障排除</a></li><ul><li><span class="title-icon "></span><a href="#常见问题"><b></b>常见问题</a></li></ul><li><span class="title-icon "></span><a href="#六、版本兼容性"><b></b>六、版本兼容性</a></li></ul></ul></div><a href="#postgresql-快速编译指南" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="postgresql-快速编译指南"><a name="postgresql-快速编译指南" class="anchor-navigation-ex-anchor" href="#postgresql-快速编译指南"><i class="fa fa-link" aria-hidden="true"></i></a>PostgreSQL 快速编译指南</h1>
+<h2 id="一、标准编译流程"><a name="一、标准编译流程" class="anchor-navigation-ex-anchor" href="#一、标准编译流程"><i class="fa fa-link" aria-hidden="true"></i></a>一、标准编译流程</h2>
+<h3 id="11-准备工作"><a name="11-准备工作" class="anchor-navigation-ex-anchor" href="#11-准备工作"><i class="fa fa-link" aria-hidden="true"></i></a>1.1 准备工作</h3>
+<pre><code class="lang-bash"><span class="hljs-comment"># 下载并解压源码</span>
+tar -zxvf postgresql-18.1.tar.gz
+<span class="hljs-built_in">cd</span> postgresql-18.1
+
+<span class="hljs-comment"># 安装依赖（以Ubuntu为例）</span>
+<span class="hljs-built_in">sudo</span> apt-get install build-essential libreadline-dev zlib1g-dev \
+ bison flex libssl-dev libxml2-dev
+</code></pre>
+<h3 id="12-配置选项"><a name="12-配置选项" class="anchor-navigation-ex-anchor" href="#12-配置选项"><i class="fa fa-link" aria-hidden="true"></i></a>1.2 配置选项</h3>
+<table>
+<thead>
+<tr>
+<th>选项</th>
+<th>说明</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>--prefix</td>
+<td>安装目录</td>
+<td>--prefix=/usr/local/pgsql</td>
+</tr>
+<tr>
+<td>--with-openssl</td>
+<td>启用SSL支持</td>
+<td>--with-openssl</td>
+</tr>
+<tr>
+<td>--with-python</td>
+<td>启用Python支持</td>
+<td>--with-python</td>
+</tr>
+<tr>
+<td>--enable-debug</td>
+<td>启用调试信息</td>
+<td>--enable-debug</td>
+</tr>
+</tbody>
+</table>
+<h3 id="13-快速安装脚本"><a name="13-快速安装脚本" class="anchor-navigation-ex-anchor" href="#13-快速安装脚本"><i class="fa fa-link" aria-hidden="true"></i></a>1.3 快速安装脚本</h3>
+<pre><code class="lang-bash"><span class="hljs-meta">#!/bin/bash</span>
+<span class="hljs-comment"># 简短版本安装脚本</span>
+./configure --prefix=/usr/local/pgsql
+make world -j$(<span class="hljs-built_in">nproc</span>)     <span class="hljs-comment"># 使用所有CPU核心并行编译</span>
+<span class="hljs-built_in">sudo</span> make install-world
+
+<span class="hljs-comment"># 创建PostgreSQL用户和数据目录</span>
+<span class="hljs-built_in">sudo</span> adduser postgres
+<span class="hljs-built_in">sudo</span> <span class="hljs-built_in">mkdir</span> -p /usr/local/pgsql/data
+<span class="hljs-built_in">sudo</span> <span class="hljs-built_in">chown</span> postgres /usr/local/pgsql/data
+
+<span class="hljs-comment"># 切换到postgres用户初始化数据库</span>
+<span class="hljs-built_in">sudo</span> su - postgres
+/usr/local/pgsql/bin/initdb -D /usr/local/pgsql/data
+/usr/local/pgsql/bin/pg_ctl -D /usr/local/pgsql/data -l logfile start
+
+<span class="hljs-comment"># 创建测试数据库</span>
+/usr/local/pgsql/bin/createdb <span class="hljs-built_in">test</span>
+/usr/local/pgsql/bin/psql <span class="hljs-built_in">test</span>
+</code></pre>
+<h2 id="二、进阶配置"><a name="二、进阶配置" class="anchor-navigation-ex-anchor" href="#二、进阶配置"><i class="fa fa-link" aria-hidden="true"></i></a>二、进阶配置</h2>
+<h3 id="21-开发环境配置"><a name="21-开发环境配置" class="anchor-navigation-ex-anchor" href="#21-开发环境配置"><i class="fa fa-link" aria-hidden="true"></i></a>2.1 开发环境配置</h3>
+<pre><code class="lang-bash"><span class="hljs-comment"># 启用调试和断言检查</span>
+./configure \
+  --prefix=/usr/local/pgsql-dev \
+  --enable-debug \
+  --enable-cassert \
+  --enable-depend \
+  --enable-profiling
+
+make -j$(<span class="hljs-built_in">nproc</span>)
+make check
+
+<span class="hljs-comment"># 启用调试和断言检查</span>
+./configure \
+  --prefix=/usr/local/pgsql-dev \
+  --enable-debug \
+  --enable-cassert \
+  --enable-depend \
+  --enable-profiling
+
+make -j$(<span class="hljs-built_in">nproc</span>)
+make check
+</code></pre>
+<h3 id="22-生产环境配置"><a name="22-生产环境配置" class="anchor-navigation-ex-anchor" href="#22-生产环境配置"><i class="fa fa-link" aria-hidden="true"></i></a>2.2 生产环境配置</h3>
+<pre><code class="lang-bash"><span class="hljs-comment"># 优化性能的生产环境配置</span>
+./configure --prefix=/opt/postgresql \
+ --with-openssl \
+--with-libxml \
+--with-uuid=e2fs \
+--with-zlib \
+--with-libxslt \
+--with-systemd \
+--with-icu \
+--with-python \
+--with-perl \
+--with-tcl \
+--with-gssapi \
+--with-pam \
+--with-ldap \
+--with-llvm \
+--with-wal-segsize=16 \
+CFLAGS=<span class="hljs-string">'-O2 -march=native'</span>
+</code></pre>
+<h2 id="三、常用命令速查表"><a name="三、常用命令速查表" class="anchor-navigation-ex-anchor" href="#三、常用命令速查表"><i class="fa fa-link" aria-hidden="true"></i></a>三、常用命令速查表</h2>
+<h3 id="编译相关"><a name="编译相关" class="anchor-navigation-ex-anchor" href="#编译相关"><i class="fa fa-link" aria-hidden="true"></i></a>编译相关</h3>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+<th>适用场景</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>make world -j4</td>
+<td>完整编译（4线程）</td>
+<td>完整安装</td>
+</tr>
+<tr>
+<td>make check</td>
+<td>运行测试</td>
+<td>验证编译</td>
+</tr>
+<tr>
+<td>make clean</td>
+<td>清理编译文件</td>
+<td>重新编译</td>
+</tr>
+</tbody>
+</table>
+<h3 id="安装相关"><a name="安装相关" class="anchor-navigation-ex-anchor" href="#安装相关"><i class="fa fa-link" aria-hidden="true"></i></a>安装相关</h3>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>make install</td>
+<td>安装核心</td>
+<td>基本安装</td>
+</tr>
+<tr>
+<td>make install-world</td>
+<td>完整安装</td>
+<td>包含所有组件</td>
+</tr>
+<tr>
+<td>make install-contrib</td>
+<td>安装扩展</td>
+<td>仅contrib模块</td>
+</tr>
+</tbody>
+</table>
+<h2 id="四、注意事项"><a name="四、注意事项" class="anchor-navigation-ex-anchor" href="#四、注意事项"><i class="fa fa-link" aria-hidden="true"></i></a>四、注意事项</h2>
+<h3 id="⚠️-权限管理"><a name="⚠️-权限管理" class="anchor-navigation-ex-anchor" href="#⚠️-权限管理"><i class="fa fa-link" aria-hidden="true"></i></a>⚠️ 权限管理</h3>
+<pre><code class="lang-bash"><span class="hljs-comment"># 避免使用root运行PostgreSQL</span>
+<span class="hljs-built_in">sudo</span> adduser postgres
+<span class="hljs-built_in">sudo</span> <span class="hljs-built_in">chown</span> -R postgres:postgres /usr/local/pgsql/data
+</code></pre>
+<h3 id="📦-依赖管理"><a name="📦-依赖管理" class="anchor-navigation-ex-anchor" href="#📦-依赖管理"><i class="fa fa-link" aria-hidden="true"></i></a>📦 依赖管理</h3>
+<pre><code class="lang-bash"><span class="hljs-comment"># RedHat/CentOS</span>
+<span class="hljs-built_in">sudo</span> yum install readline-devel zlib-devel openssl-devel
+
+<span class="hljs-comment"># Debian/Ubuntu</span>
+<span class="hljs-built_in">sudo</span> apt-get install build-essential libreadline-dev zlib1g-dev
+</code></pre>
+<h3 id="🔧-环境变量配置"><a name="🔧-环境变量配置" class="anchor-navigation-ex-anchor" href="#🔧-环境变量配置"><i class="fa fa-link" aria-hidden="true"></i></a>🔧 环境变量配置</h3>
+<pre><code class="lang-bash"><span class="hljs-comment"># 添加到 ~/.bashrc</span>
+<span class="hljs-built_in">export</span> PATH=/usr/local/pgsql/bin:<span class="hljs-variable">$PATH</span>
+<span class="hljs-built_in">export</span> PGDATA=/usr/local/pgsql/data
+</code></pre>
+<h2 id="五、故障排除"><a name="五、故障排除" class="anchor-navigation-ex-anchor" href="#五、故障排除"><i class="fa fa-link" aria-hidden="true"></i></a>五、故障排除</h2>
+<h3 id="常见问题"><a name="常见问题" class="anchor-navigation-ex-anchor" href="#常见问题"><i class="fa fa-link" aria-hidden="true"></i></a>常见问题</h3>
+<ul>
+<li>configure错误：检查依赖包是否安装完整</li>
+<li>make错误：查看错误日志，检查gcc版本</li>
+<li>权限错误：确保使用正确的用户权限</li>
+</ul>
+<h2 id="六、版本兼容性"><a name="六、版本兼容性" class="anchor-navigation-ex-anchor" href="#六、版本兼容性"><i class="fa fa-link" aria-hidden="true"></i></a>六、版本兼容性</h2>
+<table>
+<thead>
+<tr>
+<th>PostgreSQL版本</th>
+<th>最低GCC版本</th>
+<th>推荐GCC版本</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>18.x</td>
+<td>GCC 4.8</td>
+<td>GCC 8+</td>
+</tr>
+<tr>
+<td>17.x</td>
+<td>GCC 4.8</td>
+<td>GCC 8+</td>
+</tr>
+<tr>
+<td>16.x</td>
+<td>GCC 4.8</td>
+<td>GCC 8+</td>
+</tr>
+<tr>
+<td>15.x</td>
+<td>GCC 4.8</td>
+<td>GCC 8+</td>
+</tr>
+</tbody>
+</table>
 <footer class="page-footer"><span class="copyright">Copyright © 2025-2026 www.dbnotes.cn.  All rights reserved.  </span><span class="footer-modification">该文件修订时间：
-2026-03-31 21:22:32
+2026-03-31 21:35:07
 </span></footer>
                                 
                                 </section>
@@ -1168,10 +1374,10 @@
 
             
                 
-                <a href="what-is-tokens.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: what's tokens?">
-                    <i class="fa fa-angle-left"></i>
-                </a>
                 
+                <a href="pg_log_auto-capture_sqltext.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 从pg日志中提取慢sqltext">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -1180,7 +1386,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"你养龙虾了么?","description":"dbnotes.cn 专注于 数据库、Linux运维、容器化与云原生实战。涵盖 Oracle、MySQL、PostgreSQL、国产数据库、DM8、 OB、TiDB、Redis、MongoDB、K8S、Docker等主流技术栈。内容适合 DBA、运维工程师、开发人员和IT技术爱好者。","keywords":"数据库技术, 数据库运维, database, Oracle, SQL SERVER, MySQL, PG, PostgreSQL, 国产数据库, 信创数据库, 信创技术, DM8, Kingbase, OceanBase, TiDB, YashanDB, Redis, MongoDB, Neo4j, InfluxDB, Linux运维, 系统监控, Centos, KylinV10, OpenEuler,  Scripts, K8S, Docker, K8S、 Shell, Python, Zabbix, DB, DBA, SQL, 运维工程师, DevOps, DB技术, 博客, 运维, 运维技术, 脚本, dbnote, dbnotes, DBnotes, DataBaseNotes, DATABASE","author":"DBnotes.cn","level":"1.5.6.2","depth":3,"next":{"title":"Others","level":"1.5.7","depth":2,"ref":"","articles":[]},"previous":{"title":"what's tokens?","level":"1.5.6.1","depth":3,"path":"dbnotes/os/ai/what-is-tokens.md","ref":"dbnotes/os/ai/what-is-tokens.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-comscore","-search","-lunr","search-pro","back-to-top-button","copy-code-button","expandable-chapters","anchor-navigation-ex","-donate","tbfed-pagefooter","password-pro","gitbook-plugin-secure-download","custom-html","code","lightbox","auto-scroll-table","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright © 2025-2026 www.dbnotes.cn.  All rights reserved. ","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"styles":{"website":"styles/website.css"},"livereload":{},"custom-html":{},"search-pro":{"cutWordLib":"nodejieba"},"auto-scroll-table":{"speed":50,"autoStart":true,"showControls":false},"code":{"copyButtons":true},"donate":{"wechat":"https://www.dbnotes.cn/dbnotes/images/wechat-qr-code.png","alipay":"https://www.dbnotes.cn/dbnotes/images/alipay-qr-code.png","title":"如果本文对您有帮助,欢迎打赏","button":"赞赏","wechatText":"微信打赏","alipayText":"支付宝打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"showLevel":false,"associatedWithSummary":true,"mode":"float","showGoTop":true,"printLog":false,"multipleH1":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"},"pageTop":{"showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"}},"lightbox":{"jquery":true,"includeJquery":false,"sameUuid":false},"theme-comscore":{},"back-to-top-button":{},"gitbook-plugin-secure-download":{},"copy-code-button":{},"password-pro":{"tip":"请输入该页面的访问密码:","errorTip":"密码错误, 请重新输入:","reject":"当前页面拒绝访问: 身份验证失败.","//":"简化写法,只为该页面指定密码","download.md":{"password":"DBNotes.cn","tip":"下载资源需要验证密码:"},"dbnotes/ftp/download_written_by_myself.md":"DBNotes.cn","dbnotes/ftp/download_from_network.md":"DBNotes.cn","dbnotes/ftp/download_newest_film4W.md":"DBNotes.cn"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":false},"customHTML":{"js":"dbnotes/jsscripts/custom-html.js","toURL":"_book"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{"articlesExpanded":false}},"theme":"default","author":"dbnotes.cn","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"titleTemplate":"%s · |数据库笔记|dbnotes.cn| ","structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"|数据库笔记|dbnotes.cn| ","language":"zh-hans","links":{"sidebar":{"Home":"https://www.dbnotes.cn"},"home":"https://www.dbnotes.cn/","about":"https://www.dbnotes.cn/about","issues":"https://www.dbnotes.cn/issues","contribute":"https://www.dbnotes.cn"},"gitbook":"*","description":"数据库笔记 , 数据库 和 系统 运维 技术 笔记"},"file":{"path":"dbnotes/os/ai/more-bai-claw.md","mtime":"2026-03-31T13:22:32.237Z","type":"markdown"},"gitbook":{"version":"6.1.6","time":"2026-04-01T11:34:01.432Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"PG源码编译","level":"1.2.4.1","depth":3,"next":{"title":"从pg日志中提取慢sqltext","level":"1.2.4.2","depth":3,"path":"dbnotes/db/pg/pg_log_auto-capture_sqltext.md","ref":"dbnotes/db/pg/pg_log_auto-capture_sqltext.md","articles":[]},"previous":{"title":"PostgreSql(PG)","level":"1.2.4","depth":2,"ref":"","articles":[{"title":"PG源码编译","level":"1.2.4.1","depth":3,"path":"dbnotes/db/pg/pg_fast_make_install.md","ref":"dbnotes/db/pg/pg_fast_make_install.md","articles":[]},{"title":"从pg日志中提取慢sqltext","level":"1.2.4.2","depth":3,"path":"dbnotes/db/pg/pg_log_auto-capture_sqltext.md","ref":"dbnotes/db/pg/pg_log_auto-capture_sqltext.md","articles":[]},{"title":"从pg日志中提取慢sqlplan","level":"1.2.4.3","depth":3,"path":"dbnotes/db/pg/pg_log_auto-capture_sqlplan.md","ref":"dbnotes/db/pg/pg_log_auto-capture_sqlplan.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["theme-comscore","-search","-lunr","search-pro","back-to-top-button","copy-code-button","expandable-chapters","anchor-navigation-ex","-donate","tbfed-pagefooter","password-pro","gitbook-plugin-secure-download","custom-html","code","lightbox","auto-scroll-table","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright © 2025-2026 www.dbnotes.cn.  All rights reserved. ","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"styles":{"website":"styles/website.css"},"livereload":{},"custom-html":{},"search-pro":{"cutWordLib":"nodejieba"},"auto-scroll-table":{"speed":50,"autoStart":true,"showControls":false},"code":{"copyButtons":true},"donate":{"wechat":"https://www.dbnotes.cn/dbnotes/images/wechat-qr-code.png","alipay":"https://www.dbnotes.cn/dbnotes/images/alipay-qr-code.png","title":"如果本文对您有帮助,欢迎打赏","button":"赞赏","wechatText":"微信打赏","alipayText":"支付宝打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"showLevel":false,"associatedWithSummary":true,"mode":"float","showGoTop":true,"printLog":false,"multipleH1":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"},"pageTop":{"showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"}},"lightbox":{"jquery":true,"includeJquery":false,"sameUuid":false},"theme-comscore":{},"back-to-top-button":{},"gitbook-plugin-secure-download":{},"copy-code-button":{},"password-pro":{"tip":"请输入该页面的访问密码:","errorTip":"密码错误, 请重新输入:","reject":"当前页面拒绝访问: 身份验证失败.","//":"简化写法,只为该页面指定密码","download.md":{"password":"DBNotes.cn","tip":"下载资源需要验证密码:"},"dbnotes/ftp/download_written_by_myself.md":"DBNotes.cn","dbnotes/ftp/download_from_network.md":"DBNotes.cn","dbnotes/ftp/download_newest_film4W.md":"DBNotes.cn"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":false},"customHTML":{"js":"dbnotes/jsscripts/custom-html.js","toURL":"_book"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{"articlesExpanded":false}},"theme":"default","author":"dbnotes.cn","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"titleTemplate":"%s · |数据库笔记|dbnotes.cn| ","structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"|数据库笔记|dbnotes.cn| ","language":"zh-hans","links":{"sidebar":{"Home":"https://www.dbnotes.cn"},"home":"https://www.dbnotes.cn/","about":"https://www.dbnotes.cn/about","issues":"https://www.dbnotes.cn/issues","contribute":"https://www.dbnotes.cn"},"gitbook":"*","description":"数据库笔记 , 数据库 和 系统 运维 技术 笔记"},"file":{"path":"dbnotes/db/pg/pg_fast_make_install.md","mtime":"2026-03-31T13:35:07.504Z","type":"markdown"},"gitbook":{"version":"6.1.6","time":"2026-04-01T11:34:01.432Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>
