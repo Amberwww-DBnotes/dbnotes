@@ -95,6 +95,8 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="DonateList.html">
+    
     
     <link rel="prev" href="LifeDreams.html">
     
@@ -1084,6 +1086,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.9" data-path="DonateList.html">
+            
+                <a href="DonateList.html">
+            
+                    
+                    捐赠记录
+            
+                </a>
+            
+
+            
+        </li>
+    
 
     
 
@@ -1133,27 +1148,88 @@
 <hr>
 <h2 id="databasenotes"><a name="databasenotes" class="anchor-navigation-ex-anchor" href="#databasenotes"><i class="fa fa-link" aria-hidden="true"></i></a>DataBaseNotes</h2>
 <blockquote>
-<p>易忘之事，随笔记之！<br><br>路虽远，行则必至；事虽难，做则必成！<br><br>不积跬步，无以至千里；不积小流，无以成江河。  </p>
+<p>易忘之事,随笔记之！<br><br>路虽远,行则必至；事虽难,做则必成！<br><br>不积跬步,无以至千里；不积小流,无以成江河。  </p>
 </blockquote>
 <hr>
 <h2 id="🤝联系我们"><a name="🤝联系我们" class="anchor-navigation-ex-anchor" href="#🤝联系我们"><i class="fa fa-link" aria-hidden="true"></i></a>🤝联系我们</h2>
 <ul>
-<li>作者： dbnotes </li>
-<li>邮箱： am2008s@sina.com</li>
+<li>作者：  dbnotes  </li>
+<li>邮箱： <a href="#" onclick="this.outerHTML='<a href=\'mailto:am2008s@sina.com\'>am2008s@sina.com</a>'; return false;"> 点击显示邮箱 </a></li>
+<li>微信： <a href="#" onclick="showWeChatQR(); return false;"> 点开扫码 </a></li>
 </ul>
+<script>
+function showWeChatQR() {
+    // 创建弹出层
+    const overlay = document.createElement('div');
+    overlay.style.position = 'fixed';
+    overlay.style.top = '0';
+    overlay.style.left = '0';
+    overlay.style.width = '100%';
+    overlay.style.height = '100%';
+    overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+    overlay.style.display = 'flex';
+    overlay.style.alignItems = 'center';
+    overlay.style.justifyContent = 'center';
+    overlay.style.zIndex = '9999';
+    overlay.onclick = function() {
+        document.body.removeChild(overlay);
+    };
+
+    // 创建图片容器
+    const container = document.createElement('div');
+    container.style.backgroundColor = 'white';
+    container.style.padding = '20px';
+    container.style.borderRadius = '10px';
+    container.style.textAlign = 'center';
+    container.onclick = function(e) {
+        e.stopPropagation();
+    };
+
+    // 创建图片
+    const img = document.createElement('img');
+    img.src = '/dbnotes/images/info/add-wechat.png';
+    img.alt = '微信二维码';
+    img.style.maxWidth = '80%';
+    img.style.maxHeight = '80vh';
+
+    // 创建关闭按钮
+    const closeBtn = document.createElement('button');
+    closeBtn.textContent = '关闭';
+    closeBtn.style.marginTop = '10px';
+    closeBtn.style.padding = '8px 16px';
+    closeBtn.style.border = 'none';
+    closeBtn.style.backgroundColor = '#333';
+    closeBtn.style.color = 'white';
+    closeBtn.style.borderRadius = '4px';
+    closeBtn.style.cursor = 'pointer';
+    closeBtn.onclick = function() {
+        document.body.removeChild(overlay);
+    };
+
+    // 组装元素
+    container.appendChild(img);
+    container.appendChild(closeBtn);
+    overlay.appendChild(container);
+    document.body.appendChild(overlay);
+}
+
+
+</script>
+
 <h3 id="👉-提醒"><a name="👉-提醒" class="anchor-navigation-ex-anchor" href="#👉-提醒"><i class="fa fa-link" aria-hidden="true"></i></a>👉 提醒</h3>
 <ul>
-<li>本站所有需要密码的地方，请输入  <strong><span style="color: #e74c3c; font-weight: bold;">DBnotes.cn</span></strong>  ，即可 或访问 或下载 或解压。</li>
+<li>本站所有需要密码(或访问 或下载 或解压)的地方, 请 <strong><span style="color: #e74c3c; font-weight: bold;"> 点击显示密码  </span></strong> 获取之.</li>
+<li><strong><span style="color: #27AE60; font-weight: bold;"> 本站密码： </span></strong>  <a href="#" onclick="this.outerHTML='<a href=\'DBnotes.cn\'>DBnotes.cn</a>'; return false;"> 点击显示密码 </a></li>
 </ul>
 <h3 id="⭐️-感谢"><a name="⭐️-感谢" class="anchor-navigation-ex-anchor" href="#⭐️-感谢"><i class="fa fa-link" aria-hidden="true"></i></a>⭐️ 感谢</h3>
 <ul>
-<li>如果本项目对你有所帮助，请随意打赏。 您的支持将鼓励我继续更新！</li>
+<li>如果本项目对您有所帮助，请随意打赏。 您的支持将鼓励我继续更新！</li>
 </ul>
 <hr>
 <h2 id="📝-每天进步一点点-与君共勉-！！！"><a name="📝-每天进步一点点-与君共勉-！！！" class="anchor-navigation-ex-anchor" href="#📝-每天进步一点点-与君共勉-！！！"><i class="fa fa-link" aria-hidden="true"></i></a>📝 每天进步一点点... 与君共勉 ！！！</h2>
-<p><a href="../images/1.01.png" data-lightbox="dd5ed144-ef30-42e8-9978-2554f898c09d" data-title="每天进步一点点"><img src="../images/1.01.png" alt="每天进步一点点"></a></p>
+<p><a href="../images/1.01.png" data-lightbox="00102882-d839-4e69-a2a7-4cf672fdd3c0" data-title="每天进步一点点"><img src="../images/1.01.png" alt="每天进步一点点"></a></p>
 <footer class="page-footer"><span class="copyright">Copyright © 2025-2026 www.dbnotes.cn.  All rights reserved.  </span><span class="footer-modification">该文件修订时间：
-2026-04-01 19:47:20
+2026-04-03 13:27:43
 </span></footer>
                                 
                                 </section>
@@ -1181,10 +1257,14 @@
 
             
                 
-                <a href="LifeDreams.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 诗与远方">
+                <a href="LifeDreams.html" class="navigation navigation-prev " aria-label="Previous page: 诗与远方">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="DonateList.html" class="navigation navigation-next " aria-label="Next page: 捐赠记录">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -1193,7 +1273,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"联系我们","description":"dbnotes.cn 专注于 数据库、Linux运维、容器化与云原生实战。涵盖 Oracle、MySQL、PostgreSQL、国产数据库、DM8、 OB、TiDB、Redis、MongoDB、K8S、Docker等主流技术栈。内容适合 DBA、运维工程师、开发人员和IT技术爱好者。","keywords":"数据库技术, 数据库运维, database, Oracle, SQL SERVER, MySQL, PG, PostgreSQL, 国产数据库, 信创数据库, 信创技术, DM8, Kingbase, OceanBase, TiDB, YashanDB, Redis, MongoDB, Neo4j, InfluxDB, Linux运维, 系统监控, Centos, KylinV10, OpenEuler,  Scripts, K8S, Docker, K8S、 Shell, Python, Zabbix, DB, DBA, SQL, 运维工程师, DevOps, DB技术, 博客, 运维, 运维技术, 脚本, dbnote, dbnotes, DBnotes, DataBaseNotes, DATABASE","author":"DBnotes.cn","level":"1.8","depth":1,"previous":{"title":"诗与远方","level":"1.7","depth":1,"path":"dbnotes/info/LifeDreams.md","ref":"dbnotes/info/LifeDreams.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-comscore","-search","-lunr","search-pro","back-to-top-button","copy-code-button","expandable-chapters","anchor-navigation-ex","donate","tbfed-pagefooter","password-pro","gitbook-plugin-secure-download","custom-html","code","lightbox","auto-scroll-table"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright © 2025-2026 www.dbnotes.cn.  All rights reserved. ","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"styles":{"website":"styles/website.css"},"custom-html":{},"search-pro":{"cutWordLib":"nodejieba"},"auto-scroll-table":{"speed":50,"autoStart":true,"showControls":false},"code":{"copyButtons":true},"donate":{"title":"如果本文对您有帮助,欢迎打赏","button":"赞赏","wechat":"https://www.dbnotes.cn/dbnotes/images/wechat-qr-code.png","alipay":"https://www.dbnotes.cn/dbnotes/images/alipay-qr-code.png","wechatText":"微信打赏","alipayText":"支付宝打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"showLevel":false,"associatedWithSummary":true,"mode":"float","showGoTop":true,"printLog":false,"multipleH1":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"},"pageTop":{"showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"}},"lightbox":{"jquery":true,"includeJquery":false,"sameUuid":false},"theme-comscore":{},"back-to-top-button":{},"gitbook-plugin-secure-download":{},"copy-code-button":{},"password-pro":{"tip":"请输入该页面的访问密码:","errorTip":"密码错误, 请重新输入:","reject":"当前页面拒绝访问: 身份验证失败.","//":"简化写法,只为该页面指定密码","download.md":{"password":"DBNotes.cn","tip":"下载资源需要验证密码:"},"dbnotes/ftp/download_written_by_myself.md":"DBnotes.cn","dbnotes/ftp/download_from_network.md":"DBnotes.cn","dbnotes/ftp/download_newest_film4W.md":"DBnotes.cn"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":false},"customHTML":{"js":"dbnotes/jsscripts/custom-html.js","toURL":"_book"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{"articlesExpanded":false}},"theme":"default","author":"dbnotes.cn","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"titleTemplate":"%s · |数据库笔记|dbnotes.cn| ","structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"|数据库笔记|dbnotes.cn| ","language":"zh-hans","links":{"sidebar":{"Home":"https://www.dbnotes.cn"},"home":"https://www.dbnotes.cn/","about":"https://www.dbnotes.cn/about","issues":"https://www.dbnotes.cn/issues","contribute":"https://www.dbnotes.cn"},"gitbook":"*","description":"数据库笔记 , 数据库 和 系统 运维 技术 笔记"},"file":{"path":"dbnotes/info/ContactMe.md","mtime":"2026-04-01T11:47:20.086Z","type":"markdown"},"gitbook":{"version":"6.1.6","time":"2026-04-03T01:22:51.047Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"联系我们","description":"dbnotes.cn 专注于 数据库、Linux运维、容器化与云原生实战。涵盖 Oracle、MySQL、PostgreSQL、国产数据库、DM8、 OB、TiDB、Redis、MongoDB、K8S、Docker等主流技术栈。内容适合 DBA、运维工程师、开发人员和IT技术爱好者。","keywords":"数据库技术, 数据库运维, database, Oracle, SQL SERVER, MySQL, PG, PostgreSQL, 国产数据库, 信创数据库, 信创技术, DM8, Kingbase, OceanBase, TiDB, YashanDB, Redis, MongoDB, Neo4j, InfluxDB, Linux运维, 系统监控, Centos, KylinV10, OpenEuler,  Scripts, K8S, Docker, K8S、 Shell, Python, Zabbix, DB, DBA, SQL, 运维工程师, DevOps, DB技术, 博客, 运维, 运维技术, 脚本, dbnote, dbnotes, DBnotes, DataBaseNotes, DATABASE","author":"DBnotes.cn","level":"1.8","depth":1,"next":{"title":"捐赠记录","level":"1.9","depth":1,"path":"dbnotes/info/DonateList.md","ref":"dbnotes/info/DonateList.md","articles":[]},"previous":{"title":"诗与远方","level":"1.7","depth":1,"path":"dbnotes/info/LifeDreams.md","ref":"dbnotes/info/LifeDreams.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-comscore","-search","-lunr","search-pro","back-to-top-button","copy-code-button","expandable-chapters","anchor-navigation-ex","donate","tbfed-pagefooter","password-pro","gitbook-plugin-secure-download","custom-html","code","lightbox","auto-scroll-table","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright © 2025-2026 www.dbnotes.cn.  All rights reserved. ","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"styles":{"website":"styles/website.css"},"livereload":{},"custom-html":{},"search-pro":{"cutWordLib":"nodejieba"},"auto-scroll-table":{"speed":50,"autoStart":true,"showControls":false},"code":{"copyButtons":true},"donate":{"title":"如果本文对您有帮助,欢迎打赏","button":"赞赏","wechat":"https://www.dbnotes.cn/dbnotes/images/wechat-qr-code.png","alipay":"https://www.dbnotes.cn/dbnotes/images/alipay-qr-code.png","wechatText":"微信打赏","alipayText":"支付宝打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"showLevel":false,"associatedWithSummary":true,"mode":"float","showGoTop":true,"printLog":false,"multipleH1":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"},"pageTop":{"showLevelIcon":false,"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right"}},"lightbox":{"jquery":true,"includeJquery":false,"sameUuid":false},"theme-comscore":{},"back-to-top-button":{},"gitbook-plugin-secure-download":{},"copy-code-button":{},"password-pro":{"tip":"请输入该页面的访问密码:","errorTip":"密码错误, 请重新输入:","reject":"当前页面拒绝访问: 身份验证失败.","//":"简化写法,只为该页面指定密码","download.md":{"password":"DBNotes.cn","tip":"下载资源需要验证密码:"},"dbnotes/ftp/download_written_by_myself.md":"DBnotes.cn","dbnotes/ftp/download_from_network.md":"DBnotes.cn","dbnotes/ftp/download_newest_film4W.md":"DBnotes.cn"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":false},"customHTML":{"js":"dbnotes/jsscripts/custom-html.js","toURL":"_book"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{"articlesExpanded":false}},"theme":"default","author":"dbnotes.cn","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"titleTemplate":"%s · |数据库笔记|dbnotes.cn| ","structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"|数据库笔记|dbnotes.cn| ","language":"zh-hans","links":{"sidebar":{"Home":"https://www.dbnotes.cn"},"home":"https://www.dbnotes.cn/","about":"https://www.dbnotes.cn/about","issues":"https://www.dbnotes.cn/issues","contribute":"https://www.dbnotes.cn"},"gitbook":"*","description":"数据库笔记 , 数据库 和 系统 运维 技术 笔记"},"file":{"path":"dbnotes/info/ContactMe.md","mtime":"2026-04-03T05:27:43.358Z","type":"markdown"},"gitbook":{"version":"6.1.6","time":"2026-04-03T05:36:59.395Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
@@ -1292,6 +1372,10 @@
     
         
         <script src="../../gitbook/gitbook-plugin-auto-scroll-table/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
         
     
         
